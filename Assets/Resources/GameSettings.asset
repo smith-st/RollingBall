@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d577ed3a7c7e44582b0396865b2811, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  settings:
+    difficulty: 2
+    ballSpeed: 5
+    animationTime: 0.2
+    bonusAlgorithm: 1
+    bonusRandomAlgorithmPercent: 10
+    bonusSequenceAlgorithmBlockSize: 5
+  prefabs:
+    ball: {fileID: 7900880839045273778, guid: b6c8377f86a9ebc4f9b0044ba77f724c, type: 3}
+    tile: {fileID: 677326068532354459, guid: b001375f739b8cd4ab0f82a34556b183, type: 3}
+    bonus: {fileID: 6917553730359462693, guid: 4b871f320f1aa40458edede57afd55d4, type: 3}
